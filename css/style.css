@@ -1,0 +1,42 @@
+*{
+    margin : 0;
+}
+.navbar{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+}
+
+
+a{
+    font-family: 'Nanum Myeongjo', serif;
+    text-decoration: none;
+    color: black;
+}
+#nav-logo{
+    padding: 20px;
+}
+
+.nav-log{
+    padding: 10px;
+    font-size: 24px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-menu li{
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.nav-menu li:hover{
+    background-color: #b6b0b0;
+    border-radius: 5px;
+}
