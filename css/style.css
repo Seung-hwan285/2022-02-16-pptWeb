@@ -39,6 +39,8 @@ a{
 }
 
 .nav-menu li:hover{
-    background-color: #b6b0b0;
+
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
 }
