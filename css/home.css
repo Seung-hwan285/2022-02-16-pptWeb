@@ -1,6 +1,6 @@
 :root{
     --first-color : #0e2431;
-    --second-color: #6a59d1;
+    --second-color: #81fed5;
     --third-color:#777;
 
     --hover-color:#614fd0;
@@ -16,11 +16,13 @@
 .home .scroll-down{
     color: var(--first-color);
     font-size: 42px;
+
     font-weight: 600;
     margin-top: 80px;
 }
 
 .home .scroll-down i{
+
 
     color: var(--second-color);
     font-size: 1.2em;

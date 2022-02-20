@@ -1,3 +1,6 @@
+root{
+    --test-color: yellow;
+}
 *{
     overflow-x:hidden;
 
@@ -52,7 +55,7 @@ ul li{
 }
 /*라벨 버튼 디자인*/
 .manual-button{
-    border : 2px solid yellow;
+    border : 2px solid var(--test-color);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -62,7 +65,7 @@ ul li{
 
 /*라벨 마우스 포인터 반응*/
 .manual-button:hover{
-    background: yellow;
+    background: var(--test-color);
 }
 
 
@@ -86,18 +89,18 @@ ul li{
     justify-content: center;
 }
 .navigation-auto div{
-    border : 2px solid red;
+    border : 2px solid var(--test-color);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
     margin: 10px;
 }
 #slide1 ~.navigation-auto .auto-btn1{
-    background: red;
+    background: var(--test-color);
 }
 #slide2 ~.navigation-auto .auto-btn2{
-    background: red;
+    background: var(--test-color);
 }
 #slide3 ~.navigation-auto .auto-btn3{
-     background: red;
+     background: var(--test-color);
  }
