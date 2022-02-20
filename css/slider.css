@@ -1,30 +1,35 @@
 *{
+    overflow-x:hidden;
+
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 [name="slide"] {display: none}
 
+
 .slider{
 
-    margin: 0;
+    width: 105%;
     overflow: hidden;
 }
 
 .slides{
     width: 600%;
-    height: 600px;
+    height: 100%;
     display: flex;
 
 }
 /*슬라이더 이미지*/
 .slider img{
-    width: 100%;
+    width: 90%;
     height: 100vh;
 }
 
 
 .slide{
     width: 20%;
+
     transition: 2s;
 }
 
