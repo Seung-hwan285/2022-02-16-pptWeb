@@ -39,7 +39,7 @@ ul li{
 /*라벨 위치*/
 .navigation-manual{
     position: absolute;
-    width: 1510px;
+    width: 1750px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -60,18 +60,39 @@ ul li{
     background: yellow;
 }
 
-.slider .slide{
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
-}
 
-#slide01:checked ~.first{
+/*선택 슬라이더*/
+#slide1:checked ~.first{
     margin-left: 0;
 }
-#slide02:checked ~.first{
+#slide2:checked ~.first{
     margin-left: -20%;
 }
-#slide03:checked ~.first{
+#slide3:checked ~.first{
     margin-left: -40%;
 }
+
+/*자동 슬라이더*/
+.navigation-auto{
+    position: absolute;
+    width: 1750px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div{
+    border : 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 10px;
+}
+#slide1 ~.navigation-auto .auto-btn1{
+    background: red;
+}
+#slide2 ~.navigation-auto .auto-btn2{
+    background: red;
+}
+#slide3 ~.navigation-auto .auto-btn3{
+     background: red;
+ }
