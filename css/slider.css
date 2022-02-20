@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+[name="slide"] {display: none}
+.sliderbox{
+
+   margin: 0;
+
+}
+
+.slides{
+    width: 600%;
+    height: 500px;
+    display: flex;
+
+}
+.sliderbox img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slides input{
+    display: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+.navigation-manual{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-button{
+    border : 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
