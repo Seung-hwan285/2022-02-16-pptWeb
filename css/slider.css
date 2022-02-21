@@ -13,6 +13,7 @@ root{
 .slider{
 
     width: 105%;
+    margin-top: 100px;
     overflow: hidden;
 }
 

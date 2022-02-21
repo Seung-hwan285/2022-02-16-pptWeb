@@ -9,6 +9,18 @@ root{
 }
 
 
+header{
+
+    width: 100%;
+    position: fixed;
+    transition: .6s ease;
+}
+header.sticky{
+    background: rgba(255,255,255,0.1);
+
+}
+
+
 .navbar{
     display: flex;
 
@@ -32,7 +44,7 @@ a{
 
 .nav-log{
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
     overflow-y: hidden;
 }
 .nav-menu{
@@ -45,7 +57,7 @@ a{
 .nav-menu li{
     padding: 8px 12px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .nav-menu li:hover{
