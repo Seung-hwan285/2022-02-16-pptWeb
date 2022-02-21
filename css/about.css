@@ -27,7 +27,7 @@
     font-size: 4.5em;
     font-weight: 600;
     margin-bottom: 2rem;
-    background: linear-gradient(to top,turquoise 0%,var(--first-color) 70%);
+    background: linear-gradient(to top,turquoise 0%,var(--second-color) 10%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: .1;
