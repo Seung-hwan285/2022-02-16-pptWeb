@@ -10,10 +10,8 @@
     width: 1150px;
     margin-left: auto;
     margin-right: auto;
-    padding: 6rem 2rem 2rem;
-
+    margin-top: 130px;
 }
-
 
 .sub-selection{
     position: relative;
@@ -23,6 +21,7 @@
     padding: 6rem 0;
 
 }
+/*제목*/
 .section-title-01{
     font-size: 4.5em;
     font-weight: 600;
@@ -58,6 +57,7 @@
     width: 100%;
 }
 
+/*사진*/
 .about-img{
     position: relative;
 }
@@ -93,3 +93,18 @@
     padding-bottom: 25px;
     border-bottom: 2px solid var(--second-color);
 }
+
+.our-client{
+    margin-top: 30px;
+}
+
+.our-client .our-sliderwrap{
+    max-width: 2000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*클라이언트 소개*/
+.our-client .section-title-02:before{
+    width: 100px;
+}
+

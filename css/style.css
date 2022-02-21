@@ -38,18 +38,19 @@ a{
 .nav-menu{
     display: flex;
     list-style: none;
-
 }
+
+
 
 .nav-menu li{
     padding: 8px 12px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav-menu li:hover{
 
     border-radius: 5px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 19px;
 }
