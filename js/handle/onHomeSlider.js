@@ -17,15 +17,16 @@ export const onHomeSlider =()=>{
 
 export  const onClientSlider=()=>{
     var swiper = new Swiper(".mySwiper", {
-        cssMode: true,
+        effect: "flip",
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
-        pagination: {
-            el: ".swiper-pagination",
-        },
-        mousewheel: true,
-        keyboard: true,
     });
+
+
 }
