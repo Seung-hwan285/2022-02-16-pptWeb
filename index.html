@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/about.css">
+
+    <!-- Link Swiper's CSS -->
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
 
@@ -124,38 +130,16 @@
             <h2 class="section-title-02">Our Client</h2>
 
 
-            <div class="our-selection">
-                <input type="radio" name="slide" id="slide01" checked>
-                <input type="radio" name="slide" id="slide02" checked>
-                <input type="radio" name="slide" id="slide03" checked>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
 
-                <div class="our-sliderwrap">
-                    <ul class="slidelist">
-                        <li>
-                            <a>
-                                <label for="slide03" class="left"></label>
-                                <img src="img/11.JPG">
-                                <label for="slide02" class="right">right</label>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a>
-                                <label for="slide01" class="left"></label>
-                                <img src="img/11.JPG">
-                                <label for="slide03" class="right"></label>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a>
-                                <label for="slide02" class="left"></label>
-                                <img src="img/11.JPG">
-                                <label for="slide01" class="right"></label>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
 
@@ -175,15 +159,9 @@
 
 
 
-<footer>
-
-  <div>dfsad</div>
-    <div>dfsad</div>
-    <div>dfsad</div>
-    <div>dfsad</div>
-</footer>
-
-
 </body>
 <script type="module" src="js/index.js"></script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </html>
