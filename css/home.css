@@ -24,6 +24,7 @@
 .home .scroll-down i{
 
 
+
     color: var(--second-color);
     font-size: 1.2em;
     animation: arrow-down ease 2s infinite;

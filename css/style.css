@@ -23,9 +23,7 @@ header.sticky{
 
 .navbar{
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
     background-color: var(--nav-color);
     padding: 20px 50px;
@@ -44,7 +42,7 @@ a{
 
 .nav-log{
     padding: 10px;
-    font-size: 35px;
+    font-size: 28px;
     overflow-y: hidden;
 }
 .nav-menu{
