@@ -9,7 +9,7 @@ export const onConstEmailSend=()=> {
     })();
 
 
-    $('.btn').addEventListener("click", () => {
+
 
         console.log(1);
         let templateParams = {
@@ -17,7 +17,7 @@ export const onConstEmailSend=()=> {
             name: $('#name').value,
             email : $('#email').value,
             message : $('#message').value,
-            fileUpload : $('#fileUpload').files[0].name,
+            fileUpload : $('#fileUpload').value,
 
         };
         console.log(templateParams);
@@ -27,6 +27,6 @@ export const onConstEmailSend=()=> {
             }, function(error) {
                 console.log('FAILED...', error);
             });
-    });
+
 
 }
