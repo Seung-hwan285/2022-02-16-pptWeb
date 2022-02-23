@@ -1,16 +1,15 @@
-import {onClientSlider, onHomeSlider} from "./handle/onHomeSlider.js";
+import {onClientSlider} from "./handle/onHomeSlider.js";
 import {onHomeScroll} from "./handle/onHomeScroll.js";
 import {$} from "./utils/querySelector.js";
-import {onContactFileUpload} from "./handle/onContactFileUpload.js";
+
+import {onConstEmailSend} from "./handle/onContact.js";
 
 const App=()=>{
 
-    onHomeSlider();
+    // onHomeSlider();
+    window.addEventListener('scroll',onHomeScroll);
     onClientSlider();
-    onHomeScroll();
-    onContactFileUpload();
-
-
+    onConstEmailSend();
 }
 
 window.onload=()=>{

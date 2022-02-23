@@ -75,13 +75,13 @@
                         <p>담당자 성함 , 직함을 알려주세요</p>
                         <br>
 
-                        <input type="text" >
+                        <input type="text" id="name">
                     </div>
 
                     <div class="second-row">
                         <p>연락받으실 이메일 주소를 입력해주세요</p>
                         <br>
-                        <input type="text" >
+                        <input type="text" id="email">
                     </div>
 
 
@@ -89,7 +89,7 @@
                     <div class="three-row">
                         <p>피피티 디자인이나 관련된 요구사항에 대해서 말씀해주세요</p>
                         <br>
-                        <textarea name="message" id="" rows="7"></textarea>
+                        <textarea name="message" id="message" rows="7"></textarea>
                     </div>
 
 
@@ -100,7 +100,7 @@
                     </div>
 
 
-                    <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <button onclick="onConstEmailSend()" class="btn" type="button" id="submit">Send Message <i class="fas fa-paper-plane"></i></button>
                 </form>
             </div>
             </div>
@@ -111,8 +111,10 @@
 </article>
 
 </body>
+<script type="module" src="js/handle/onContact.js"></script>
 <script type="module" src="js/index.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+<!--Email JS-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </html>
