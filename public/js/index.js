@@ -11,6 +11,7 @@ const App=()=>{
     onClientSlider();
     onHomeSlider();
 
+    
     $('.btn').addEventListener("click",onConstEmailSend);
 
 }
