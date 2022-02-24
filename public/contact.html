@@ -69,19 +69,20 @@
 
             <div class="content-right between">
                 <p>I'm always open to products</p><span>design work or partenerships </span>
+                <iframe id="iframe1" name="iframe1" style="display:none"></iframe>
 
-                <form action="" class="contact-form">
+                <form action="/" method="POST" class="contact-form" target="iframe1">
                     <div class="first-row">
                         <p>담당자 성함 , 직함을 알려주세요</p>
                         <br>
 
-                        <input type="text" id="name">
+                        <input type="text" id="name" name="name">
                     </div>
 
                     <div class="second-row">
                         <p>연락받으실 이메일 주소를 입력해주세요</p>
                         <br>
-                        <input type="text" id="email">
+                        <input type="text" id="email" name="email">
                     </div>
 
 
@@ -92,13 +93,11 @@
                         <textarea name="message" id="message" rows="7"></textarea>
                     </div>
 
-
-
-
-
-                    <button  class="btn" type="button" id="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <button  class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
                 </form>
+
             </div>
+
             </div>
 
         </div>
@@ -111,6 +110,5 @@
 <script type="module" src="js/index.js"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!--Email JS-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </html>
