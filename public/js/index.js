@@ -1,6 +1,7 @@
 import {onClientSlider, onHomeSlider} from "./handle/onHomeSlider.js";
 import {onHomeScroll} from "./handle/onHomeScroll.js";
 import {$} from "./utils/querySelector.js";
+import {onContact} from "./handle/onContact.js";
 
 
 
@@ -11,6 +12,9 @@ const App=()=>{
     onClientSlider();
     // onHomeSlider();
 
+
+
+    $('#filename').addEventListener("change",onContact);
 
 }
 
