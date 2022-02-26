@@ -8,9 +8,6 @@ const bodyParser = require("body-parser");
 const app =express();
 
 const multer = require("multer");
-const upload = multer({ dest: './public/img' });
-
-
 
 // 정적 파일 연결
 app.use(express.static(__dirname+"/public"));
@@ -27,13 +24,23 @@ app.use(bodyParser.json());
 
 
 
+const upload=multer({
 
+    storage : multer.diskStorage({
+        destination:((req, file, cb)=> {
+            cb(null, './public/img')
+        }),
+        filename: ((req,file,cb)=>{
+            cb(null,file.originalname);
+        }),
+    })
+
+});
 
 //이메일 보내기
 app.post('/',upload.array('file'),(req,res)=> {
 
 
-    console.log(req.files);
 
 
     const emailSend = `<p>You have a new Contact request</p>
@@ -42,12 +49,9 @@ app.post('/',upload.array('file'),(req,res)=> {
     <li>Name : ${req.body.name}</li>
     <li>Email : ${req.body.email}</li>
     <li>Message : ${req.body.message}</li>
-
+    <li>file : ${req.files[0].originalname}</li>
     </ul>
-
     `;
-
-
 
 // 메일 발송 환경 설정
     let transporter = nodemailer.createTransport({
@@ -66,9 +70,7 @@ app.post('/',upload.array('file'),(req,res)=> {
             rejectUnauthorized : false,
         },
 
-
     });
-
 
 
     // let ws=fs.createWriteStream('./public/img/'+req.body.file);
@@ -83,7 +85,7 @@ app.post('/',upload.array('file'),(req,res)=> {
         html: emailSend, // html.body
         attachments:[{
             filename : req.body.file,
-            contents : new Buffer('C:\\Users\\User\\WebstormProjects\\sister_web\\public\\img\\'+req.body.file)
+            path:'./public/img/'+req.files[0].originalname
 
         }]
 
