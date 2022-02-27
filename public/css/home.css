@@ -7,6 +7,14 @@
 
 
 }
+body{
+    font: 500 125% system-ui, sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto !important;
+}
+
 .home{
     display: flex;
     justify-content: center;
