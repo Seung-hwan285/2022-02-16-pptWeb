@@ -35,10 +35,28 @@ describe('홈 화면 테스트',()=> {
     //     //
     // });
 
+
+
     it('nav 메뉴바 버튼 페이지 이동 테스트',()=>{
 
 
-        const a=cy.get('.nav-menu').contains('.list');
-        console.log(a);
+        // <a href ="index.html" 요소 가져옴>
+        const $aboutBtn=cy.get('[data-js="about"]');
+        $aboutBtn.click();
+        // pahtname으로 활성된 현재 페이지 객체를 가져옴
+        cy.location('pathname').should('eq','/sister_web/public/about.html');
+
+        cy.go('back');
+
+
+        // <a href ="contact.html" 요소 가져옴>
+        const $contactBtn=cy.get('[data-js="contact"]');
+        $contactBtn.click();
+        // pahtname으로 활성된 현재 페이지 객체를 가져옴
+        cy.location('pathname').should('eq','/sister_web/public/contact.html');
+        cy.go('back');
+
+
+
     });
 });
