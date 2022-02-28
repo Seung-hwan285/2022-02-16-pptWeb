@@ -11,6 +11,7 @@ const App=()=>{
     window.addEventListener('scroll',onHomeScroll);
     onClientSlider();
     onHomeSlider();
+    onHomeScroll();
 
 }
 
