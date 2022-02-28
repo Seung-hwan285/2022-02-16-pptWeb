@@ -11,7 +11,6 @@ const App=()=>{
     window.addEventListener('scroll',onHomeScroll);
     onClientSlider();
     onHomeSlider();
-    $('#filename').addEventListener("change",onContact);
 
 }
 
