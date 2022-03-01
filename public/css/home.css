@@ -7,6 +7,9 @@
 
 
 }
+*{
+    box-sizing: border-box;
+}
 body{
     font: 500 125% system-ui, sans-serif;
 }
@@ -46,4 +49,42 @@ img{
     30%{
         transform: translateY(10px);
     }
+}
+
+
+main{
+    margin: 0 auto;
+    height: 100%;
+    max-width: none;
+}
+
+/*요금제 소개 틀*/
+.inside{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+
+    margin-bottom: 1250px;
+}
+
+/*요금제 title*/
+.inside .row{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 40px;
+}
+
+/*grid 컨테이너*/
+.grid-container{
+    display: grid;
+    grid-template-rows: 300fr 300fr 300fr;
+    grid-template-columns: 300px 300px 300px;
+    gap: 100px;
+
+}
+
+/*grid-item border*/
+.grid-container .grid-item{
+    border: 2px solid rgba(128,128,128,0.3);
+
 }
