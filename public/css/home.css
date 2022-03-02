@@ -12,7 +12,6 @@
 }
 body{
     font: 500 125% system-ui, sans-serif;
-
 }
 img{
     max-width: 100%;
@@ -24,6 +23,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .home .scroll-down{
@@ -41,6 +41,7 @@ img{
     color: var(--second-color);
     font-size: 1.2em;
     animation: arrow-down ease 2s infinite;
+
 }
 
 @keyframes arrow-down {
@@ -57,15 +58,19 @@ main{
     margin: 0 auto;
     height: 100%;
     max-width: none;
+
 }
 
+.service{
+
+}
 /*요금제 소개 틀*/
 .inside{
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
 
-    margin-bottom: 100px;
+
 }
 
 /*요금제 title*/
@@ -78,10 +83,13 @@ main{
 /*grid 컨테이너*/
 .grid-container{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 300px 300px 300px;
+
+    grid-template-rows: repeat(2,250px);
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 100px;
     min-height: 100vh;
+
 
 }
 
@@ -96,6 +104,10 @@ main{
  }
 .grid-container .btn-wrap a{
     border: 0;
-    padding: 10px 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.portfolio-service{
 
 }
