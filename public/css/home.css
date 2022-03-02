@@ -12,6 +12,7 @@
 }
 body{
     font: 500 125% system-ui, sans-serif;
+
 }
 img{
     max-width: 100%;
@@ -64,7 +65,7 @@ main{
     padding-right: 15px;
     position: relative;
 
-    margin-bottom: 1250px;
+    margin-bottom: 100px;
 }
 
 /*요금제 title*/
@@ -77,14 +78,24 @@ main{
 /*grid 컨테이너*/
 .grid-container{
     display: grid;
-    grid-template-rows: 300fr 300fr 300fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 300px 300px 300px;
     gap: 100px;
+    min-height: 100vh;
 
 }
 
 /*grid-item border*/
 .grid-container .grid-item{
     border: 2px solid rgba(128,128,128,0.3);
+
+}
+.grid-container .btn-wrap{
+
+     transform: translate(490px);
+ }
+.grid-container .btn-wrap a{
+    border: 0;
+    padding: 10px 10px;
 
 }
