@@ -94,7 +94,7 @@ main{
 }
 
 /*grid-item border*/
-.grid-container .grid-item{
+.service .grid-container .grid-item{
     border: 2px solid rgba(128,128,128,0.3);
 
 }
@@ -108,6 +108,24 @@ main{
     font-weight: bold;
 }
 
+
+/*홈페이지 포트폴리오 예시*/
+
 .portfolio-service{
+    width: auto;
+    height: auto;
+}
+.portfolio-service .text-table{
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+}
+
+.portfolio-service .grid-item{
+
+    height: 420px;
+}
+
+.portfolio-service .portfolio-btn-wrap{
 
 }
