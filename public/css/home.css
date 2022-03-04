@@ -61,9 +61,6 @@ main{
 
 }
 
-.service{
-
-}
 /*요금제 소개 틀*/
 .inside{
     padding-left: 15px;
@@ -88,7 +85,6 @@ main{
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 100px;
-    min-height: 100vh;
 
 
 }
@@ -108,23 +104,28 @@ main{
     font-weight: bold;
 }
 
+
 /*홈페이지 포트폴리오 예시*/
 
-.portfolio-service{
-    width: auto;
-    height: auto;
+#portfolio .grid-container{
+
+    grid-template-rows: repeat(3,342px);
+    grid-template-columns: 2fr 2fr
+
 }
+#portfolio .grid-item{
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.service #por-btn{
+    transform: translate(460px);
+}
+
+
 .portfolio-service .text-table{
     margin-top: -20px;
     margin-bottom: 20px;
-}
-
-.portfolio-service .grid-item{
-
-    height: 420px;
-}
-
-.portfolio-service .portfolio-btn-wrap{
-
 }
 
