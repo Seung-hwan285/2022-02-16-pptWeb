@@ -108,7 +108,6 @@ main{
     font-weight: bold;
 }
 
-
 /*홈페이지 포트폴리오 예시*/
 
 .portfolio-service{
@@ -118,7 +117,6 @@ main{
 .portfolio-service .text-table{
     margin-top: -20px;
     margin-bottom: 20px;
-
 }
 
 .portfolio-service .grid-item{
@@ -129,3 +127,4 @@ main{
 .portfolio-service .portfolio-btn-wrap{
 
 }
+
