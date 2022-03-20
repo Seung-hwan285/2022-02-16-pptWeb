@@ -164,3 +164,71 @@ main{
     position: absolute;
     width: 700px;
 }
+
+/*파트너 슬라이더*/
+#partner{
+    background: #fafafa;
+    width: 100%;
+
+
+}
+
+#partner .pa-title{
+    margin-top: 100px;
+}
+
+#partner .inside{
+
+    text-align: center;
+    width: 100%;
+}
+
+#partner .btn-join{
+    border: black 1px solid;
+    padding: 10px;
+}
+
+#partner .rollingbanner{
+    position: relative;
+    margin-top: 85px;
+}
+
+#partner .rollingbanner ul{
+    display: flex;
+}
+#partner .wrap{
+    width: 3000px;
+}
+
+
+#partner .rollingbanner .wrap .slide-li{
+    margin-right: 100px;
+
+}
+
+
+
+
+/* 애니메이션 */
+.roller.original{
+    animation: 20s linear 0s infinite normal forwards running rollingleft1;
+}
+.roller.clone{
+    visibility: hidden;
+    animation: 20s linear 0s infinite normal none running rollingleft2;
+}
+
+@keyframes rollingleft1 { /* 원본용 */
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    50.1%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

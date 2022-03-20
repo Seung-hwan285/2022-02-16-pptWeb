@@ -1,20 +1,17 @@
-import {onClientSlider, onHomeSlider} from "./handle/onHomeSlider.js";
-import {onHomeScroll} from "./handle/onHomeScroll.js";
-import {$} from "./utils/querySelector.js";
-import {onContact} from "./handle/onContact.js";
+import { onHomeSlider} from "./components/onHomeSlider.js";
+import {onHomeScroll} from "./components/onHomeScroll.js";
 
 
 
-const App=()=>{
+const App=()=> {
 
 
-    window.addEventListener('scroll',onHomeScroll);
-    onClientSlider();
+    window.addEventListener('scroll', onHomeScroll);
+
     onHomeSlider();
 
 
 }
-
 
 window.onload=()=>{
     App();
