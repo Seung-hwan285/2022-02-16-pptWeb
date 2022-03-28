@@ -7,6 +7,8 @@
 <br>
 현재는 home 디자인 작업중입니다.
 
+## 개발환경
+Vanilla Js ,CSS , HTML , Cypress , express.js
 
 ## 데모
 
