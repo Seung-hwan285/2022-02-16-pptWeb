@@ -3,7 +3,7 @@
 
 
 [데모]
-<img src="./https://user-images.githubusercontent.com/74364667/160363676-55a6adf5-fd9f-4f9a-905d-d8cd1ee508e7.mp4">
+<img src="https://user-images.githubusercontent.com/74364667/160363676-55a6adf5-fd9f-4f9a-905d-d8cd1ee508e7.mp4">
 
 
 
