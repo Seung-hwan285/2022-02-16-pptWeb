@@ -16,11 +16,11 @@
 [트러블 슈팅](https://www.notion.so/2022-02-20-23f9a19de2eb495cbbd4525be7a56fe1)
 
 ## 2. [이메일 기능]
-[트러블 슈팅](https://www.notion.so/2022-02-24-7db956ad16b844a18cc78b7a007c3c80)
+[트러블 슈팅](https://www.notion.so/2022-02-24-7db956ad16b844a18cc78b7a007c3c80)<br>
 [트러블 슈팅](https://www.notion.so/2022-02-24-7db956ad16b844a18cc78b7a007c3c80)
 
 ## 3. [파일 업로드]
-[트러블 슈팅](https://www.notion.so/2022-02-25-68e800061b3f4bfea9076aafa3641fa2)
+[트러블 슈팅](https://www.notion.so/2022-02-25-68e800061b3f4bfea9076aafa3641fa2)<br>
 [트러블 슈팅](https://www.notion.so/2022-02-26-6fb57319bb4d46d48d7be4839cf8c2c7)
 
 ## 전체 현황판
