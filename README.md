@@ -6,7 +6,7 @@
 구현을 하다 이메일 기능 , 파일 업로드가  필요해서 처음에는 email.JS 라이브러리를 사용할려 했지만 파일 업로드가 안되는 바람에 직접 구현을 진행하였습니다.
 
 
-## [데모]
+## 데모
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/74364667/160367469-8dc2629e-5c5a-4e04-8b88-2aff20db3740.gif)
 
