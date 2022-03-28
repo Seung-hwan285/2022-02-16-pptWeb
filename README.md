@@ -7,7 +7,8 @@
 
 
 [데모]
-<img src=https://www.notion.so/2022-02-26-6fb57319bb4d46d48d7be4839cf8c2c7>
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/74364667/160367469-8dc2629e-5c5a-4e04-8b88-2aff20db3740.gif)
 
 
 ## 구현 기능
